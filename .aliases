@@ -1,0 +1,5 @@
+alias zshconfig="vi ~/.zshrc"
+alias gs="git status"
+alias b="bundle"
+alias oms="overmind start -f Procfile.dev"
+alias y="yarn"

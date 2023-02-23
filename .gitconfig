@@ -1,0 +1,13 @@
+[user]
+  email = delete44+tech@protonmail.com
+	name = delete-44
+[push]
+	default = current
+[rerere]
+  enabled = 1
+[credential]
+	helper = store
+[safe]
+	directory = /workspace
+[init]
+	defaultBranch = main
