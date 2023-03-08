@@ -8,6 +8,7 @@
     ~/.gitconfig: .gitconfig
     ~/.irbrc: .irbrc
     ~/.pryrc: .pryrc
+    ~/.tmux.conf: .tmux.conf
     ~/.zshrc: .zshrc
 
 - shell:

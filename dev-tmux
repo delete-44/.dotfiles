@@ -1,0 +1,6 @@
+#!/bin/sh
+tmux new-session -d
+tmux split-window -v bundle exec rails server -p 3000
+tmux split-window -h ./bin/webpack-dev-server
+tmux split-window -h bundle exec sidekiq -C ./config/sidekiq.yml
+tmux -2 attach-session -d
