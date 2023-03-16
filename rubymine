@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Open rubymine from the command line
+open -na "RubyMine.app" --args "$@"
