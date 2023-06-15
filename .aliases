@@ -6,5 +6,7 @@ alias y="yarn"
 alias cat="bat"
 
 # Make scripts in this project more easily accessible
+
 alias dev-tmux="~/.dotfiles/dev-tmux"
 alias rubymine="~/.dotfiles/rubymine"
+alias ftsio='source ~/.dotfiles/ftsio'

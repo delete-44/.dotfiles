@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# get the name of the current directory
+LOCAL_REPO_DIR=$(basename `pwd`)
+
+# get the URL of the remote "origin"
+REPO_URL=$(git config --get remote.origin.url)
+
+echo "#==== FTSIO: Removing $LOCAL_REPO_DIR repository... ====#"
+
+# navigate to the parent directory
+cd ..
+
+# remove the existing repo
+rm -rf $LOCAL_REPO_DIR
+
+echo "#==== FTSIO: Cloning $REPO_URL repository again... ====#"
+
+# clone the repo again
+git clone $REPO_URL $LOCAL_REPO_DIR
+
+echo "#==== FTSIO: Changing working directory to the new $LOCAL_REPO_DIR repository... ====#"
+
+# navigate to the new repo
+cd "$LOCAL_REPO_DIR"
+
+echo "#==== FTSIO: Repo reset completed! ====#"
