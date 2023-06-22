@@ -6,23 +6,23 @@ tap 'homebrew/cask'
 tap 'buo/cask-upgrade'
 tap 'homebrew/cask-fonts'
 
-brew 'bat'
+brew 'bat' # Better cat
 brew 'curl'
-brew 'fzf'
+brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
 brew 'git-delta'
 brew 'gh'
 brew 'github-keygen'
 brew 'lazygit'
 brew 'openssl'
-brew 'overmind'
+brew 'overmind' # Running multiple processes
 brew 'postgresql@14'
 brew 'python@3.11'
-brew 'rbenv'
+brew 'rbenv' # ruby version manager
 brew 'readline'
 brew 'ripgrep'
 brew 'ruby-build'
-brew 'tmux'
+brew 'tmux' # Terminal multiplexer
 brew 'smug'
 brew 'wget'
 
