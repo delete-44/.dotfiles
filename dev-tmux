@@ -3,4 +3,16 @@ tmux new-session -d
 tmux split-window -v bundle exec rails server -p 3000
 tmux split-window -h ./bin/webpack-dev-server
 tmux split-window -h bundle exec sidekiq -C ./config/sidekiq.yml
+
+# Create a new pane for Rails console on the top layer
+tmux select-pane -t 0
+tmux split-window -h bundle exec rails console
+
+# Set width of rails console to be higher
+tmux select-pane -t 2
+tmux resize-pane -x 80%
+
+# Set focus on the first pane (Empty pane)
+tmux select-pane -t 0
+
 tmux -2 attach-session -d
