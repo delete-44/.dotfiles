@@ -6,7 +6,7 @@
 [rerere]
   enabled = 1
 [credential]
-	helper = store
+	helper = osxkeychain
 [safe]
 	directory = /workspace
 [init]
