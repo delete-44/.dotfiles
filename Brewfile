@@ -31,3 +31,5 @@ brew 'zsh-syntax-highlighting'
 cask 'font-meslo-for-powerline'
 cask 'font-daddy-time-mono-nerd-font'
 cask 'font-jetbrains-mono-nerd-font'
+
+cask 'hiddenbar'
