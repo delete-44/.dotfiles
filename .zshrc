@@ -39,8 +39,7 @@ export DOTDIR=$HOME/.dotfiles
 . $DOTDIR/.aliases
 
 # fzf ...................................................................................................
-export FZF_BASE="$BREW_PREFIX/bin/fzf"
-[ -f ~/.fzf.zsh ] && . ~/.fzf.zsh
+source <(fzf --zsh)
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -55,3 +54,7 @@ eval "$(pyenv init -)"
 
 # Fixing pip warning
 PATH=$PATH:~/.local/bin
+
+# Install plugins
+source /opt/homebrew/opt/spaceship/spaceship.zsh
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

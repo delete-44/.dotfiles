@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-tap 'homebrew/core'
 tap 'homebrew/bundle'
-tap 'homebrew/cask'
 tap 'buo/cask-upgrade'
 tap 'homebrew/cask-fonts'
 
@@ -17,16 +15,21 @@ brew 'lazygit'
 brew 'openssl'
 brew 'overmind' # Running multiple processes
 brew 'postgresql@14'
+brew 'pyenv'
 brew 'python@3.11'
 brew 'rbenv' # ruby version manager
 brew 'readline'
 brew 'ripgrep'
 brew 'ruby-build'
-brew 'tmux' # Terminal multiplexer
 brew 'smug'
+brew 'spaceship'
+brew 'tmux' # Terminal multiplexer
 brew 'wget'
+brew 'zsh-syntax-highlighting'
 
 # Fonts
 cask 'font-meslo-for-powerline'
 cask 'font-daddy-time-mono-nerd-font'
 cask 'font-jetbrains-mono-nerd-font'
+
+cask 'hiddenbar'
