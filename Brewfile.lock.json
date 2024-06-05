@@ -1152,6 +1152,10 @@
             }
           }
         }
+      },
+      "nuke": {
+        "version": "5.2.2",
+        "bottle": false
       }
     },
     "cask": {
