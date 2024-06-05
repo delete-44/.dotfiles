@@ -32,4 +32,6 @@ cask 'font-meslo-for-powerline'
 cask 'font-daddy-time-mono-nerd-font'
 cask 'font-jetbrains-mono-nerd-font'
 
-cask 'hiddenbar'
+# Utility apps
+cask 'hiddenbar' # Hide items in top menu bar
+cask 'numi' # Improved calculator
