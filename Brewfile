@@ -9,6 +9,7 @@ brew 'curl'
 brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
 brew 'nuke' # Close all apps in one command
+brew 'monolith' # Save websites!
 brew 'openssl'
 brew 'overmind' # Running multiple processes
 brew 'postgresql@16'
