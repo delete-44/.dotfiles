@@ -2,13 +2,11 @@
 
 tap 'homebrew/bundle'
 tap 'buo/cask-upgrade'
-tap 'homebrew/cask-fonts'
 
 brew 'bat' # Better cat
 brew 'curl'
 brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
-brew 'nuke' # Close all apps in one command
 brew 'monolith' # Save websites!
 brew 'openssl'
 brew 'overmind' # Running multiple processes
@@ -29,3 +27,7 @@ cask 'font-jetbrains-mono-nerd-font'
 # Utility apps
 cask 'hiddenbar' # Hide items in top menu bar
 cask 'numi' # Improved calculator
+cask 'visual-studio-code' # Duh
+
+tap 'gleich/homebrew-taps'
+brew 'nuke' # Close all apps in one command
