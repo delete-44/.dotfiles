@@ -7,6 +7,7 @@ brew 'bat' # Better cat
 brew 'curl'
 brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
+brew 'git-delta' # Pretty git diffs
 brew 'monolith' # Save websites!
 brew 'openssl'
 brew 'overmind' # Running multiple processes
