@@ -15,15 +15,11 @@ brew 'postgresql@16'
 brew 'pyenv'
 brew 'python@3.11'
 brew 'rbenv' # ruby version manager
+brew 'readline' # Readline library, required for ruby history on mac
 brew 'ruby-build'
 brew 'spaceship' # Tmux plugin
 brew 'tmux' # Terminal multiplexer
 brew 'zsh-syntax-highlighting'
-
-# Fonts
-cask 'font-meslo-for-powerline'
-cask 'font-daddy-time-mono-nerd-font'
-cask 'font-jetbrains-mono-nerd-font'
 
 # Utility apps
 cask 'hiddenbar' # Hide items in top menu bar
