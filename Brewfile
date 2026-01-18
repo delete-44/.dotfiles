@@ -8,6 +8,7 @@ brew 'curl'
 brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
 brew 'git-delta' # Pretty git diffs
+brew 'mole' # Deep-clean macbook
 brew 'monolith' # Save websites!
 brew 'openssl'
 brew 'overmind' # Running multiple processes
