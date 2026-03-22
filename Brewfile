@@ -26,3 +26,4 @@ brew 'zsh-syntax-highlighting'
 cask 'hiddenbar' # Hide items in top menu bar
 cask 'numi' # Improved calculator
 cask 'visual-studio-code' # Duh
+cask 'vlc'
