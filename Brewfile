@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-tap 'homebrew/bundle'
 tap 'buo/cask-upgrade'
 
 brew 'bat' # Better cat
@@ -8,6 +7,7 @@ brew 'curl'
 brew 'fzf' # Fuzzy finder (to improve ctrl+R searches)
 brew 'git'
 brew 'git-delta' # Pretty git diffs
+brew 'gleich/homebrew-taps/nuke' # Close all apps in one command
 brew 'mole' # Deep-clean macbook
 brew 'monolith' # Save websites!
 brew 'openssl'
@@ -26,6 +26,3 @@ brew 'zsh-syntax-highlighting'
 cask 'hiddenbar' # Hide items in top menu bar
 cask 'numi' # Improved calculator
 cask 'visual-studio-code' # Duh
-
-tap 'gleich/homebrew-taps'
-brew 'nuke' # Close all apps in one command

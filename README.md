@@ -20,5 +20,5 @@ Other fun things...
 1. Add `code` to the path using the VScode command pallette
 2. `open Cobalt2.terminal` & go to `Shell > Use settings as default`
 3. [Add a GitHub SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
-  a. Run `git remote set-url origin git@github.com:delete-44/.dotfiles.git` to start using SSH for this repo
-  a. You can now remove the PAT
+    1. Run `git remote set-url origin git@github.com:delete-44/.dotfiles.git` to start using SSH for this repo
+    1. You can now remove the PAT
