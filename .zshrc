@@ -7,6 +7,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # Allow opensearch to run locally
 export OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
 
+# Set up homebrew path first
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -31,14 +35,12 @@ SPACESHIP_PROMPT_ORDER=(
 
 source $ZSH/oh-my-zsh.sh
 
-# dotfiles ...................................................................................................
+# Load config files
+
 export DOTDIR=$HOME/.dotfiles
-
-# aliases ...................................................................................................
-
 . $DOTDIR/.aliases
 
-# fzf ...................................................................................................
+# fzf for reverse-i searches
 source <(fzf --zsh)
 
 export NVM_DIR="$HOME/.nvm"
@@ -54,7 +56,3 @@ eval "$(pyenv init -)"
 
 # Fixing pip warning
 PATH=$PATH:~/.local/bin
-
-# Install plugins
-source /opt/homebrew/opt/spaceship/spaceship.zsh
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

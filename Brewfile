@@ -25,5 +25,5 @@ brew 'zsh-syntax-highlighting'
 # Utility apps
 cask 'hiddenbar' # Hide items in top menu bar
 cask 'numi' # Improved calculator
-cask 'visual-studio-code' # Duh
+cask 'vscodium' # Telemetry-free vscode
 cask 'vlc'

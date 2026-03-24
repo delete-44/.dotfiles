@@ -5,6 +5,7 @@ alias oms="overmind start -f Procfile.dev"
 alias y="yarn"
 alias cat="bat"
 alias dc="docker-compose"
+alias code="/bin/codium"
 
 # Make scripts in this project more easily accessible
 
