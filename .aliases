@@ -10,4 +10,5 @@ alias dc="docker-compose"
 
 alias dev-tmux="~/.dotfiles/dev-tmux"
 alias rubymine="~/.dotfiles/rubymine"
+alias vscodium="~/.dotfiles/vscodium"
 alias ftsio='source ~/.dotfiles/ftsio'

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# Convert relative path to absolute
+path="${1:-.}"
+abs_path=$(cd "$path" && pwd)
+
+# Open VSCodium from CLI
+open -na "VSCodium.app" --args "$abs_path"
