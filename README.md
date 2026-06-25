@@ -25,12 +25,9 @@ Other fun things...
 1. [Linux] Open Terminal preferences and set the theme to GNOME dark
 1. [Add a GitHub SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key).
    1. Run `git remote set-url origin git@github.com:delete-44/.dotfiles.git` to start using SSH for this repo
-1. [Linux] Set up VSCodium;
-   1. Install the following plugins:
-      - ESLint
-      - GitLens
-      - Prettier
-      - Synthwave '84
-   1. Open user settings -> Copy-paste the contents from ./vscodium/settings.json
-   1. Open user keybinds -> Copy-paste the contents from ./vscodium/keybindings.json
-   1. Sure it would be nice to [automate this](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles). Maybe one day
+1. [Linux] Install the following plugins in VSCodium:
+   - ESLint
+   - GitLens
+   - Prettier
+   - Synthwave '84
+   - Sure it would be nice to [automate this](https://anhari.dev/blog/saving-vscode-settings-in-your-dotfiles). Maybe one day

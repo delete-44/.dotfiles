@@ -10,6 +10,8 @@
     ~/.pryrc: .pryrc
     ~/.tmux.conf: .tmux.conf
     ~/.zshrc: .zshrc
+    ~/.config/VSCodium/User/keybindings.json: vscodium/keybindings.json
+    ~/.config/VSCodium/User/settings.json: vscodium/settings.json
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
