@@ -4,11 +4,9 @@ alias b="bundle"
 alias oms="overmind start -f Procfile.dev"
 alias y="yarn"
 alias cat="bat"
-alias dc="docker-compose"
-alias code="/bin/codium"
+alias dc="docker compose"
+alias dcr="docker compose exec rails"
 
 # Make scripts in this project more easily accessible
 
-alias dev-tmux="~/.dotfiles/dev-tmux"
-alias rubymine="~/.dotfiles/rubymine"
 alias ftsio='source ~/.dotfiles/ftsio'
