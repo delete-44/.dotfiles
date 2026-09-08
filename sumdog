@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Start + detach servers
+cd ~/sumdog_web
+dc up -d
+
+# Start working tmux session
+tmux new-session -d -e RAILS_ENV=development
+tmux split-window -v yarn build --watch
+tmux split-window -h yarn test --watchAll
+
+# Create a new pane for Rails console on the top layer
+tmux select-pane -t 0
+tmux split-window -h docker compose exec rails bundle exec rails console
+
+# Set width of rails console to be higher
+tmux select-pane -t 1
+tmux resize-pane -x 80%
+
+# Set focus on the first pane (Empty pane)
+tmux select-pane -t 0
+
+tmux -2 attach-session -d

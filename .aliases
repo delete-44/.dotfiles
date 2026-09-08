@@ -10,3 +10,4 @@ alias dcr="docker compose exec rails"
 # Make scripts in this project more easily accessible
 
 alias ftsio='source ~/.dotfiles/ftsio'
+alias sumdog='source ~/.dotfiles/sumdog'
