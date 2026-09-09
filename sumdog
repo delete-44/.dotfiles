@@ -13,11 +13,12 @@ tmux split-window -h yarn test --watchAll
 tmux select-pane -t 0
 tmux split-window -h docker compose exec rails bundle exec rails console
 
-# Set width of rails console to be higher
-tmux select-pane -t 1
+# Increase width of test pane
+tmux select-pane -t 3
 tmux resize-pane -x 80%
 
-# Set focus on the first pane (Empty pane)
+# Set focus on the first pane (working pane) + make it wider
 tmux select-pane -t 0
+tmux resize-pane -x 80%
 
 tmux -2 attach-session -d
