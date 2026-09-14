@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Bootstrap dev env
+cd ~/dev-environment
+aws-env --profile sumdog-eu ~/dev-environment/bootstrap.sh -y
+
 # Start + detach servers
 cd ~/sumdog_web
 dc up -d
