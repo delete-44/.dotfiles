@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# | ------------------------------- |
+# | Working pane        |   Rails c |
+# | ------------------------------- |
+# | Yarn build |        Yarn tests  |
+# | ------------------------------- |
+
 # Bootstrap dev env
 cd ~/dev-environment
 aws-env --profile sumdog-eu ~/dev-environment/bootstrap.sh -y
